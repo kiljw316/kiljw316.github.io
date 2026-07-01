@@ -1,7 +1,38 @@
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
 header {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 12px;
 }
 
 section {
-    margin-bottom: 15px;
+    margin-bottom: 32px;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    padding: 10px 14px;
+    border: 1px solid #222;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #222;
+}
+
+.links a:hover {
+    background-color: #222;
+    color: #fff;
 }
